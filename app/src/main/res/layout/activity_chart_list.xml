@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Tip Ledger"
+            android:background="?attr/colorPrimary"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/viewBubbleChartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Bubble Chart" />
+
+    <Button
+        android:id="@+id/viewBarChartDailyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Daily Bar Chart" />
+
+    <Button
+        android:id="@+id/viewBarChartMonthlyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View monthly Bar Chart" />
+
+    <Button
+        android:id="@+id/viewLineChartDailyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Daily Line Chart" />
+
+    <Button
+        android:id="@+id/viewLineChartMonthlyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Monthly Line Chart" />
+
+    <Button
+        android:id="@+id/viewTextReportMonthlyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Monthly Text Report" />
+
+
+</LinearLayout>
